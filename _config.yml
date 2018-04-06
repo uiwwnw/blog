@@ -24,7 +24,7 @@ github_username:  uiwwnw
 
 # Build settings
 markdown: kramdown
-theme: Jekflix
+theme: minima
 plugins:
   - jekyll-feed
 
