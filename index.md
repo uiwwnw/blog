@@ -5,4 +5,7 @@
 layout: home
 ---
 
-dkdksdjkajskd
+Home
+
+# 개발자 치즈의 
+## 생각과 과정을 공유하는 블로그
