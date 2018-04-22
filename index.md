@@ -4,3 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+
+# 개발자 치즈의 
+## 생각과 과정을 공유하는 블로그
