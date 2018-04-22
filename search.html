@@ -4,20 +4,15 @@ title: Search
 permalink: /search/
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
 
-<div class="container">
-  <h1>준비중입니다.</h1>
-</div>
+<input type="text" id="search-input" placeholder="Search blog posts..">
+<ul id="results-container"></ul>
+<script src="{{ site.baseurl }}/asset/js/simple-jekyll-search.min.js"></script>
+<!-- <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script> -->
+<script>
+    var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json'
+    })
+</script>
