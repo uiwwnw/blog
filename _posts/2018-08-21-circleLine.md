@@ -8,8 +8,6 @@ categories: jekyll update
 ## circleLine
 css를 이용한 원형 그래프 구현
 
-약간의 잔머리를 굴렸다.
-
 `svg`나 `canvas`가 아닌 순수 css로만 구현할 수 있을까? 라는 질문에서 시작한 [circleLine](https://github.com/uiwwnw/circleLine)
 
 이전에 찾았던 거지만 border의 그라디언트를 이용하여 그래프를 구현한 소스가 이미존재한다. 하지만 나는 그보다 더 낮은 브라우저에 대응하고 싶었다.
